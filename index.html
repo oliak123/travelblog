@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://static.tumblr.com/f767d88fefa1e17d4b7f55c97fe87dc6/qkin1v6/12fmz015v/tumblr_static_blue_green_sky_background.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img url="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=59859656">
+    <h1>Travel Blog</h1>
+    <ul>
+      <li><a href="#">Countries</a></li>
+      <li><a href="#">Cities</a></li>
+      <li><a href="#">Popular Destinations</a></li>
+    </ul>
+  </header>
+  <article>
+  <h2>Greece</h2>
+  <p>bbla bla bla</p>
+  <button>Like</button></article>
+  <article>
+  <h2>Mexico</h2>
+  <p>bla bla bla</p>
+  <button>Like</button></article>
+  <article>
+  <h2>Singapore</h2>
+  <p>blob bla blob</p>
+  <button>Like</button></article>
+  <script>$("button").on("click", function() {
+            alert("clicked!")
+          });
+  </script>
+</body>
+
